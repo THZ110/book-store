@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 40px;
+    position: relative;
+    
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    background-color: #333; /* Cor do círculo */
+    border-radius: 50%; /* Define a forma como um círculo */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
+  form {
+    margin: 20px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #a80000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .error {
+    color: #FF0000;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  h1{
+    color: white;
+  }
+
+  li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+
+  label{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  
