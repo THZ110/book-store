@@ -6,18 +6,6 @@ body {
     position: relative;
     
   }
-  
-  .circle {
-    width: 200px;
-    height: 200px;
-    background-color: #333; /* Cor do círculo */
-    border-radius: 50%; /* Define a forma como um círculo */
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-  }
 
   form {
     margin: 20px;
@@ -34,6 +22,16 @@ body {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #8d8d8d; /* Define uma borda padrão */
+    background-color: #000; /* Define uma cor de fundo padrão */
+    transition: border-color 0.5s, background-color 0.5s; /* Adiciona uma transição suave */
+  }
+
+  input:focus{
+    border-color: #9600b4; /* Cor da borda ao focar */
+    background-color: #ffffff; /* Cor de fundo ao focar */
+    outline: none;
   }
   
   button {
@@ -45,8 +43,22 @@ body {
     border-radius: 8px;
     display: block;
     margin: 0 auto;
+    transition: background-color 0.3s;
   }
-  
+
+  button:hover {
+    background-color: #820000;
+}
+ 
+.loja{
+  background-color: #4e0097;
+  color: inherit;
+  margin-top: 10px;
+}
+
+.loja:hover{
+  background-color: #37006b;
+}
   .error {
     color: #FF0000;
   }
