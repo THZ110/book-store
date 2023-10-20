@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #000000;
+    background-color: #000;
     margin-top: 40px;
     position: relative;
     
@@ -49,16 +49,7 @@ body {
   button:hover {
     background-color: #820000;
 }
- 
-.loja{
-  background-color: #4e0097;
-  color: inherit;
-  margin-top: 10px;
-}
 
-.loja:hover{
-  background-color: #37006b;
-}
   .error {
     color: #FF0000;
   }

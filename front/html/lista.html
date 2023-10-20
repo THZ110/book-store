@@ -4,17 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Livros Disponíveis</title>
+  <title>🌍</title>
   <link rel="stylesheet" href="/front/css/lista.css">
-  <script src="/front/JS/listartabela.js" defer></script>
-  <script src="/front/JS/listarprodutos.js" defer></script>
+  <script src="/front/JS/inserirLivro.js" defer></script>
+  <script src="/front/JS/preencheTabela.js" defer></script>
+  <script src="/front/JS/get.js" defer></script>
+  <script src="/front/JS/post.js" defer></script>
 </head>
 
+<header>
+  <div class="logo">
+      <img src="/front/img/THZ__3_-removebg-preview (1).png" alt="Logo da Loja">
+      <h1>PUMPSTORE</h1>
+  </div>
+  <div class="cliente-info">
+      <img src="imagem-do-cliente.jpg" alt="Imagem do Cliente">
+  </div>
+</header>
+
 <body>
-  <h1>Livros Disponíveis</h1>
-  <input type="text" id="search-input" placeholder="Pesquisar livros">
+  <h1>𝐋𝐢𝐯𝐫𝐨𝐬 𝐃𝐢𝐬𝐩𝐨𝐧í𝐯𝐞𝐢𝐬</h1>
+  <input class="pesquisar" type="text" id="search-input" placeholder="Pesquisar livros">
   <button id="search-button">🔍</button>
 
+  <table class="tabela">
+    <tr>
+    </tr>
+    <th>Titulo</th>
+    <th>Autor</th>
+    <th>ISBN</th>
+    <th>Imagem</th>
+  </table>
 </body>
 <script src="/front/JS/script.js" defer></script>
 

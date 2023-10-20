@@ -1,20 +1,79 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000;
+    background-color: #fff;
     text-align: center;
     padding: 20px;
 }
 
 h1 {
-    color: #fff;
+    color: #000;
 }
 
 .book-card {
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     text-align: left;
+}
+
+ .pesquisar {
+    width: 27%;
+    padding: 9px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #8d8d8d; /* Define uma borda padrão */
+    background-color: #000; /* Define uma cor de fundo padrão */
+    transition: border-color 0.5s, background-color 0.5s; /* Adiciona uma transição suave */
+  }
+
+  .pesquisar:focus{
+    border-color: #9600b4; /* Cor da borda ao focar */
+    background-color: #ffffff; /* Cor de fundo ao focar */
+    outline: none;
+  }
+
+button {
+    background-color: #a80000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+    margin-top: 8px;
+  }
+
+  button:hover {
+    background-color: #820000;
+}
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    
+    display: flex;
+    justify-content: space-between; /* Alinhar elementos no cabeçalho */
+    align-items: center; /* Alinhar verticalmente os elementos */
+}
+
+.logo img {
+    width: 80px; /* Largura da imagem do logo da loja */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+}
+
+.logo h1 {
+    font-size: 24px; /* Tamanho da fonte para o nome da loja */
+    margin-left: 10px; /* Espaçamento à esquerda entre a imagem e o texto */
+}
+
+.cliente-info img {
+    width: 40px; /* Largura da imagem do cliente */
+    height: 40px; /* Altura da imagem do cliente */
+    border-radius: 50%; /* Cria um círculo para a imagem do cliente */
 }
