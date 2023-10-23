@@ -37,6 +37,6 @@ function inserirLivro(livro) {
     colSelecionar.classList.add("col-selecionar");
     colSelecionar.innerText = livro.selecionar;
     linha.appendChild(colSelecionar);
-  
+
     document.querySelector('tbody').appendChild(linha);
   }

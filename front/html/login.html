@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
     <link rel="stylesheet" type="text/css" href="/front/css/login.css">
-    <title>Tela de Login</title>
 </head>
 <body>
     <div class="login-container">
-        <h1>𝐋𝐨𝐠𝐢𝐧</h1>
+        <h1>Login</h1>
+        <div id="error-message" class="error-message"></div>
         <form id="login-form">
-            <input type="text" id="username" placeholder="Nome de usuário" required>
-            <input type="password" id="password" placeholder="Senha" required>
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
             <button type="submit">Entrar</button>
         </form>
     </div>
+
+    <div id="error-popup" class="error-popup"></div>
+    
     <script src="/front/JS/login.js"></script>
 </body>
 </html>
